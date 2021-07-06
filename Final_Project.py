@@ -9,7 +9,7 @@ import sys
 import re
 import datetime
 
-client = MongoClient("mongodb+srv://qing0928:mongo123456@cluster0.1njut.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://password:mongo123456@cluster0.1njut.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.final
 collection = db.item
 collection2 = db.sells
